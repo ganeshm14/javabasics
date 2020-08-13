@@ -32,6 +32,7 @@ public class LinkedListImpl {
        int del = sc.nextInt();
        deleteWithValue(del);
        print();
+       sc.close();
 	}
 	private static void print() {
 		Node temp = head;
