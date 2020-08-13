@@ -38,7 +38,7 @@ public class LinkedListImpl {
 		Node temp = head;
 		
 		while(temp != null) {
-			System.out.println("data "+ temp.data);
+			System.out.println("data is changed"+ temp.data);
 			temp = temp.next;
 		}
 	}
