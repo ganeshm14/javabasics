@@ -28,7 +28,7 @@ public class LinkedListImpl {
     	   insertAtBeginning(sc.nextInt());
     	   print();
        }
-       System.out.println("Enter the element to be deleted ");
+       System.out.println("Enter the element to be deleted from the list ");
        int del = sc.nextInt();
        deleteWithValue(del);
        print();
